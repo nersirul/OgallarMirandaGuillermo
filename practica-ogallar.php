@@ -17,9 +17,9 @@
  * 
  * @return float Área calculada (unidades: cm²).
  */
-function calcularAreaRectangulo(float $base, float $altura): float
+function calcularAreaTriangulo(float $base, float $altura): float
 {
-    return $base * $altura;
+    return ($base * $altura) / 2;
 }
 
 /**
